@@ -1,0 +1,6 @@
+Model,Actual Breaches,Failure Rate (%),POF P-Value,Status
+LSTM_VaR,21,0.95,0.8142,PASSED
+QuantileReg_VaR,25,1.13,0.5422,PASSED
+PolyReg_VaR,34,1.54,0.0183,FAILED
+Historical_VaR,35,1.58,0.011,FAILED
+Parametric_VaR,54,2.44,0.0,FAILED
